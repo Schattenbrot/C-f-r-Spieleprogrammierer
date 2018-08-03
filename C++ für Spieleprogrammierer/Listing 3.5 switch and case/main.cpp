@@ -1,7 +1,7 @@
 /*
 * C++ für Spieleprogrammierer
 * Listing 3.4
-* logical operators
+* switch and case
 *
 * Author:	Aaron
 * Date:	1.8.2018

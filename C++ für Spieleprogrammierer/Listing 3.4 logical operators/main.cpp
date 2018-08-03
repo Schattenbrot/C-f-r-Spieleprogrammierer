@@ -1,11 +1,10 @@
-/*
-* C++ für Spieleprogrammierer
-* Listing 3.4
-* logical operators
-*
-* Author:	Aaron
-* Date:	1.8.2018
-*/
+// Author: Aaron Machill
+// Date: 8:52 PM || 01.08.2018
+// Last edit: 5:45 PM || 03.08.2018
+// 
+// Project: Listing 3.4 logical operators
+// File: main.cpp
+
 #include <iostream>
 
 int main(int argc, char* argv[])

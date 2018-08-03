@@ -1,7 +1,7 @@
 /*
 * C++ für Spieleprogrammierer
 * Listing 3.6
-* logical operators
+* for
 *
 * Author:	Aaron
 * Date:	1.8.2018
@@ -10,25 +10,25 @@
 
 int main(int argc, char* argv[])
 {
-	int RoundNumber{};
-	int RoundPoints{};
-	int TotalPoints{};
+	int roundNumber{};
+	int roundPoints{};
+	int totalPoints{};
 
 	std::cout << "How many rounds should the game have: ";
-	std::cin >> RoundNumber;
+	std::cin >> roundNumber;
 
-	for (int i = 0; i < RoundNumber; ++i)
+	for (auto i = 0; i < roundNumber; ++i)
 	{
 		std::cout << "Round " << i + 1 << " now" << std::endl;
 		std::cout << "How many points got reached? ";
-		std::cin >> RoundPoints;
+		std::cin >> roundPoints;
 
-		TotalPoints += RoundPoints;
+		totalPoints += roundPoints;
 
-		std::cout << "Current standing: " << TotalPoints << std::endl << std::endl;
+		std::cout << "Current standing: " << totalPoints << std::endl << std::endl;
 	}
 
-	std::cout << "\nAfter " << RoundNumber << " rounds were " << TotalPoints << " points reached." << std::endl;
+	std::cout << "\nAfter " << roundNumber << " rounds were " << totalPoints << " points reached." << std::endl;
 
 	system("PAUSE");
 	return 0;
